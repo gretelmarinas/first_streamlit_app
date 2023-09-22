@@ -41,9 +41,6 @@ try:
     streamlit.dataframe(back_from_function)
   
 except URLError as e:
-  streamlit.error()
-    
-streamlit.write('The user entered ', fruit_choice)
 
 #import requests
 
